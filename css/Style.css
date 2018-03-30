@@ -254,15 +254,15 @@ section {
 
 @media (max-width:870px){
   .page1{
-    height: 18cm;
+    height: 20cm;
   }
   .page2{
     height: 20cm;
   }
   .page3{
-    height: 22cm;
+    height: 20cm;
   }
   .page4{
-    height: 18cm;
+    height: 24cm;
   }
 }
