@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Graduate');
+@import url('https://fonts.googleapis.com/css?family=Graduate|Righteous');
+@import url('https://fonts.googleapis.com/css?family=Handlee|Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  width: 100%;
+  height: 0%;
+  font-family:  sans-serif;
+  background-color: #fab700f5;
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+.nevbar{
+  display: flex;
+  height: 8vh;
+  animation-delay: 0.3s;  background-color: rgba(255, 255, 255, 0);
+  display: grid;
+  color: #111111;
+  font-family: 'Chewy', cursive;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.name{
+  text-align: baseline;
+  padding: 1%;
+  
+}
+
+.page1{
+  padding-top: 7%;
+  height: 100vh;
+  position: static;
+}
+
+.align{
+  margin-top: 5%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15pt;
+  color: #111111;
+}
+
+.div1{
+  margin-top: 60px;
+  background-size: cover;
+  background-position: center;
+  vertical-align: center;
+}
+
+.bottom{
+  animation-delay: 3.7s;
+  color: #3670c9;
+  font-family: 'archivo', sans-serif;
+}
+
+.body{
+  animation-delay: 2s;
+  text-align: center;
+}
+
+.content{
+  margin-top: 6%;
+  line-height: 9mm;
+  font-size: 18pt;
+  font-family: 'Handlee', cursive;
+  color: #ffffff;
+}
+
+section {
+  width: 100%;
+  max-width: none;
+  background-color: rgb(91, 183, 199);
+  height: 100vh;
+  padding: 0.5%;
+}
+
+.page2{
+  padding: 2%;
+  background-color: #f7b590;
+}
+
+.page3{
+  background-color: #3332ff;
+  color: #fafafa;
+  padding: 2%;
+}
+
+.page4{
+  background-color: #f0482a;
+  color: #fafafa;
+  padding: 2%;
+}
+
+.sec1{
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+}
+
+.sec2{
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+
+}
+
+.sec3{
+  font-size: 21pt;
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+
+}
+
+.footer{
+  height: 9cm;
+  color: #ffffff;
+  background-color: #60c3d6;
+}
+
+.content1{
+  text-align: left;
+  padding-left: 12px;
+  padding-top: 2%;
+  font-family: 'VT323', monospace;
+  font-size: 32px;
+  line-height: 2cm;
+}
+
+.id2{
+  font-family: 'Graduate', cursive;
+  padding-left: 12px;
+  font-size: 15px;
+  line-height: 0.7cm;
+  
+}
+#email{
+  font-family: 'Righteous', cursive;
+  font-size: 20px;
+}
+
+.image, .image1, .image2{
+  text-align: center;
+}
+
+.image2{
+  margin-top: 5mm;
+}
+.image{
+  color: #fafafa;
+}
+#empty{
+  height: 2mm;
+  background-color:#ffffff;
+  color: white;
+}
+
+.wrapper{
+  padding: 2%;
+}
+
+.wrapper1{
+  margin-top: 25mm;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: grid;
+  grid-template-columns: 53% 35%;
+}
+
+.textalign1{
+  font-size: 18pt;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 14%;
+}
+
+.textalign, .textalign2{
+  font-size: 14pt;
+  color: #111111;
+  padding-top: 5%;
+  padding-left: 3%;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  line-height: 9mm;
+  text-align: left;
+}
+
+.resume_text{
+  padding-top: 4%;
+  color: #3670c9;
+}
+
+.icons{
+  text-align: center;
+  margin-top: 25mm;
+}
+
+.fa{
+  margin-left: 4mm;
+  color: #ffffff;
+}
+
+.fa:hover{
+  color: #96c7f0;
+  transition: 300ms;
+}
+
+@media(height:640px){
+  .wrapper,.wrapper1{
+    padding: 0%;
+    display: block;
+  }
+  .image,.image1{
+    text-align: left;
+    padding-left: 2%;
+  }
+  .image1{
+    padding-top: 5%;
+  }
+  .align{
+    height: 4cm;
+  }
+  .textalign1{
+    padding-left: 2%;
+  }
+}
+
+@media (max-width: 700px) {
+  .page1{
+    padding-top: 20%;
+  }
+  .wrapper1{
+    padding: 2%;
+    display: block;
+  }
+  .image1{
+    text-align: left;
+    padding-left: 2%;
+    padding-top: 6%;
+  }
+  .textalign1{
+    padding-left: 4%;
+    padding-top: 4%;
+  }
+}
+
+@media (max-width:870px){
+  .page1{
+    height: 18cm;
+  }
+  .page2{
+    height: 18cm;
+  }
+  .page3{
+    height: 22cm;
+  }
+  .page4{
+    height: 18cm;
+  }
+}

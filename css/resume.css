@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  width: 100%;
+  height: 0%;
+  font-family:  sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  overflow-wrap: break-word;
+}
+
+.box1{
+  padding: 12px;
+  background: #ffffff;
+}
+.innerSec{
+  padding: 16px;
+  background: #faecec;
+}

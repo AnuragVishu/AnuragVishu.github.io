@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <script src="js/scrollreveal.min.js"></script>
+  <script src="js/wow.min.js"></script>
+
+  <script>
+    window.sr = ScrollReveal({
+      reset: true
+    });
+  </script>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/Style.css" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Anton|Archivo+Black|Passion+One" rel="stylesheet">
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+
+  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+  <script>
+      $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+      
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+      
+            // Store hash
+            var hash = this.hash;
+      
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+         
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+      </script>
+  
+</head>
+<title>Portfolio</title>
+<body>
+  <header class="animated slideInLeft nevbar">
+    <div class="name">
+      <a style="color:#111111; text-decoration:none;" href="#">ANURAG VISHWAKARMA</a>
+    </div>
+  </header>
+  <div class="page1">
+
+
+    <div class="animated fadeInDown align">
+      <h1 class="animated slideInUp" style="font-size:35pt; font-family: 'Luckiest Guy', cursive;;">Anurag
+        <br> Vishwakarma</h1>
+    </div>
+
+    <div class="animated fadeIn body div1">
+      <p class="content">
+        <b>Hey There!</b> Welcome to my Portfolio,
+        <br> I'm Anurag, I am a student curious about latest Technology.
+        <br> Currently pursuing Engineering in Information Technology,
+        <br> With having a deep interest in the fields like Machine Learning, Artificial Intelligence and UX Design
+      </p>
+
+      <p class="animated fadeOut bottom">
+        <b>Scroll to know more</b>
+      </p>
+    </div>
+  </div>
+
+  <section class="WOW page2">
+    <div class="sec1">
+      <a style="font-size:31pt;">What I do?</a>
+      <br>
+      <a style="font-size:15pt;"> Know me more..</a>
+    </div>
+
+    <div class="wrapper">
+      <div class="image">
+        <img class="img" src="image/consultation_large.png" style="height:200px; width:200px;">
+      </div>
+      <div class="textalign">
+        <p>I am an undergraduate student doing my Bachler Of Engineering from Shri Shankaracharya Engineering College, Bhilai.
+          Started my Engineering at 2015, today I'm in 6th Semester of the course of total of 8 semesters.</p>
+
+        <p>I always believe in aquiring education the right way, that is, to gain knowledge and simply not just to pass endsems.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="page4">
+    <div class="sec3">
+      <a style="font-size:31pt;">Love writing code?</a>
+      <br>
+      <a style="font-size:15pt;">Hope you will enjoy my company</a>
+    </div>
+    <div class="wrapper2">
+      <div class="image2">
+        <img class="img" src="image/code_icon1.png" style="height:225px;">
+      </div>
+      <div class="textalign2">
+        <p style="color:#fafafa;">I just Love writing code. Specially the Algorithms and Data Structure parts.<br>
+        Currently focusing on developing hybrid mobile apps using React-Native and Ionic platforms.<br>Learning should never get stopped! So, Learning and developing some cool stuffs using Google's Machine Learning library, TensorFlow. </p>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="page3">
+    <div class="sec2">
+      <a style="font-size:31pt;">Here's my Resume</a>
+      <br>
+      <a style="font-size:15pt;"> Have a look</a>
+    </div>
+
+    <div class="wrapper1">
+      <div class="image1">
+        <img class="img" src="image/resume_icon.png" style="height:250px;">
+      </div>
+
+      <div class="textalign1">
+        <p style="color:#ffffff; font-size:20pt; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+          The Resume defines it all.
+        </p>
+        <p class="resume_text">
+          <button type="button" class="btn btn-primary btn-lg">Have a look</button>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div id="empty"></div>
+
+  <section class="animated zoonIn footer">
+    <div class="content1">
+      SAY HELLO!
+    </div>
+
+    <div class="id2">
+      Connect with me to discuss Latest
+      <b> Tech</b>,
+      <b> Coding</b> or simply to grab a
+      <b>Coffee</b>,
+      <br>Send in the mail at,
+      <b id="email">anurag . vishwakarma9 @ gmail . com</b>
+    </div>
+
+    <div class="icons">
+      <a href="http://github.com/anuragvishu/" rel="noopener noreferrer" target="_blank">
+        <i class="fa fa-github-alt fa-2x" aria-hidden="true"></i>
+      </a>
+
+      <a href="http://linkedin.com/in/anuragvishu/" rel="noopener noreferrer" target="_blank">
+        <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+      </a>
+
+      <a href="https://twitter.com/anuragvishu97/" rel="noopener noreferrer" target="_blank">
+        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+      </a>
+
+      <a href="https://facebook.com/anurag.vishwakarma/" rel="noopener noreferrer" target="_blank">
+        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+      </a>
+
+      <a href="https://instagram.com/avishu97/" rel="noopener noreferrer" target="_blank">
+        <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+      </a>
+
+    </div>
+  </section>
+
+  <script>
+    sr.reveal('.img', {
+      duration: 400
+    });
+  </script>
+
+</body>
+
+</html>
